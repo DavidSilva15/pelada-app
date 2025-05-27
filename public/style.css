@@ -1,0 +1,53 @@
+table th,
+table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25rem 0.5rem;
+}
+
+i.fas {
+    font-size: 1rem;
+}
+
+.modal-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.modal-form .form-group {
+    flex: 1 1 45%;
+    min-width: 200px;
+}
+
+.modal-buttons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+/*responsividade*/
+@media (max-width: 500px) {
+    .modal-form .form-group {
+        flex: 1 1 100%;
+    }
+
+    .modal-buttons {
+        flex-direction: column;
+    }
+}
+
+thead th {
+    background-color: rgb(51, 51, 51) !important;
+    /* cinza escuro */
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+}
